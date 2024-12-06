@@ -1,0 +1,94 @@
+ body {
+  height: 100%;
+  width: 100%;
+  background-color: #F3E2E9;
+  font-family: Optima, sans-serif; 
+  color: #530E1C;
+   text-align: center; 
+}
+
+header{
+  background-color:#34344a; 
+  color: #EFE9AE;
+  background-image: url("cherryBlossom.jpg") 
+  
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+footer{
+  padding: 20px;
+  background-color:#947784; 
+}
+
+div{
+ padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.intro{
+  border-color: #E1B7C8;
+  border-style: solid;
+  border-width: 15px;
+  padding: 25px 10px 10px 25px
+  
+}
+
+.quote{
+  font-style: Cursive;
+}
+
+.funfact{
+  border-color: #DBA9BD;
+  border-style: solid;
+  border-width: 15px;
+  padding: 25px 10px 10px 25px;
+}
+
+.resume{
+   border-color: #D59AB2;
+  border-style: solid;
+  border-width: 15px;
+  padding: 25px 10px 10px 25px;
+}
+
+
+.images{
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin: 0 auto;
+
+}
+
+a:link{
+  color: #34344a;
+  text-decoration: none;
+  text-decoration: none;
+}
+
+.FFimgs{
+  width:50px;
+  height:50px;
+  float: center; 
+}
+/*gradients*/
+#gradbodyIntro{
+  background-image: linear-gradient(#F2E1E8, #E1B7C8);
+}
+#gradIntroFF{
+  background-image: linear-gradient(#E1B7C8, #DBA9BD);
+}
+#gradFFRes{
+  background-image: linear-gradient(#DBA9BD, #D59AB2);
+}
+
+#gradResBod{
+  background-image: linear-gradient( #D59AB2, #947784);
+}
+
